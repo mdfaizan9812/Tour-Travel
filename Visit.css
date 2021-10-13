@@ -29,6 +29,7 @@ nav{
 	color: white;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	align-items: center;
 }
 
@@ -40,6 +41,7 @@ nav .logo{
 nav .menu{
 	width: 25%;
 	display: flex;
+
 	justify-content: space-around;
 	align-items: center;
 }
