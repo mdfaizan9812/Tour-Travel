@@ -3,3 +3,79 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.logFile h1{
+	text-align: center;
+	margin: 15px 0px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid silver;
+}
+
+.head{
+	width: 100%;
+	height: 100vh;
+	background:linear-gradient(120deg,#2980b9,#8e44ad);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;	
+}
+
+.logFile{
+	width: 30%;
+	height: 55vh;
+	background: white;
+	border-radius: 10px;
+}
+
+.form1 form{
+	margin: 20px;
+}
+
+.text-field input,.Pass-field input{
+	outline: none;
+}
+
+.text-field{
+	margin-bottom: 15px;
+	border-bottom: 1px solid #adadad;
+	display: flex;
+	flex-direction: column;
+}
+.Pass-field{
+	margin-bottom: 15px;
+	border-bottom: 1px solid #adadad;
+	display: flex;
+	flex-direction: column;
+}
+.pass{
+	margin-bottom: 15px;
+}
+
+.login h1{
+	width: 20%;
+}
+
+form input{
+	border: none;
+}
+
+input[type="submit"]{
+	width: 100%;
+	height: 50px;
+	border: 1px solid black;
+	background: #2691d9;
+	border-radius: 25px;
+	font-size: 18px;
+	color: #e9f4fb;
+	font-weight: 700;
+}
+input[type="submit"]:hover{
+	border-color: #2691d9;
+	transition: .01s;
+}
+
+.signup-link{
+	margin: 20px 0;
+	text-align: center;
+}
