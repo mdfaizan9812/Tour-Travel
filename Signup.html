@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Get Details</title>
 	<link rel="stylesheet" type="text/css" href="Signup.css">
+	<script type="text/javascript" src="Signup.js"></script>
 	<base href="C:\\Users\\SHIVAM SINGH\\Desktop\\HtmlPractice\\India Historical visit\\image\\">
 </head>
 <body>
@@ -12,10 +13,10 @@
 		<nav>
 			<div class="logo"> <h1>Tour<span style="color: red;">&</span>Travel</h1> </div>
 			<div class="menu">
-				<a href="#">Home</a>
+				<a href="C:\\Users\\SHIVAM SINGH\\Desktop\\HtmlPractice\\India Historical visit\IndiaVisit.html" target="_self">Home</a>
 				<a href="#">Gallery</a>
 				<a href="#">About</a>
-				<a href="contact.html" target="_blank">Contact</a>
+				<a href="C:\\Users\\SHIVAM SINGH\\Desktop\\HtmlPractice\\India Historical visit\contact.html" target="_blank">Contact</a>
 			</div>
 
 		</nav>
@@ -25,35 +26,36 @@
 				<ul>
 					<li>
 						<label for="name">Name:</label>
-						<input type="text" name="name" id="name">
+						<input type="text" name="name"  autocomplete="off" id="fname" onfocus="focusname()" onblur="blurname()">
 					</li>
 				
 					<li>
 						<label for="email">Email Address:</label>
-						<input type="email" name="email" id="email">
+						<input type="email" name="email" autocomplete="off" id="email" onfocus="focusmail()" onblur="blurmail()">
 					</li>
 				
 					<li>
 						<label for="mob" >Mobile No:</label>
-						<input type="number" name="Mobile" id="mob">
+						<input type="number" name="Mobile" autocomplete="off" id="mob" onfocus="focusmob()" onblur="blurmob()">
 					</li>
 				
 					<li>
 						<label for="pass">Password</label>
-						<input type="Password" name="Password" id="pass">
+						<input type="Password" name="Password" autocomplete="off" id="pass" onfocus="focuspass()"onblur="blurpass()">
 					</li>
 
 					<li>
 						<label for="conpass">Confirm Password</label>
-						<input type="Password" name="confPass" id="conpass">
+						<input type="Password" name="confPass" autocomplete="off" id="conpass" onfocus="focuscon()" onblur="blurcon()">
 					</li>
 				
 					<li class="sub">
-						<input type="submit" name="submit">
+						<input type="submit" value="Signup">
 					</li>
 				</ul>
 			</form>
 		</div>
 	</div>
+	
 </body>
 </html>

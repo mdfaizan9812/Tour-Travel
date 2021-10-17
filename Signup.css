@@ -61,3 +61,19 @@ ul li{
 	display: flex;
 	justify-content: center;
 }
+
+li input{
+	border: none;
+	background: none;
+	outline: none;
+	border-bottom: 1px solid ;
+	
+}
+
+.sub input{
+	width: 50%;
+	height: 5vh;
+	border-radius: 10px;
+	background-color: goldenrod;
+	cursor: pointer;
+}

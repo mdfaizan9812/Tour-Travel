@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Book tour</title>
 	<link rel="stylesheet" type="text/css" href="Book_Tour.css">
+	<script type="text/javascript" src="Book_Tour.js"></script>
 </head>
 <body>
 	<div class="book">
@@ -16,27 +17,27 @@
 				<ul>
 					<li class="source">
 						<label for="source">Source</label>
-						<input type="text" id="source">
+						<input type="text" id="source" onfocus="focussource()" onblur="blursource()">
 					</li>
 
 					<li class="destination">
 						<label for="dest">Destination</label>
-						<input type="text" id="dest">
+						<input type="text" id="dest" onfocus="focusdestination()" onblur="blurdestination()">
 					</li>
 
 					<li class="num">
 						<label for="num">How Many</label>
-						<input type="type" id="num">
+						<input type="type" id="num" onfocus="focusnum()" onblur="blurnum()">
 					</li>
 
 					<li class="dat">
 						<label for="dat">Date</label>
-						<input type="date" id="dat">
+						<input type="date" id="dat" onfocus="focusdat()" onblur="blurdat()">
 					</li>
 
 					<li class="tim">
 						<label for="tim">Time</label>
-						<input type="time" id="tim">
+						<input type="time" id="tim" onfocus="focustim()" onblur="blurtim()">
 					</li>
 
 					<li class="bookto"><input type="submit" value="Book"></label></li>
