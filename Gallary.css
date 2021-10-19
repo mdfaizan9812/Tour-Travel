@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*     Navbar         */
+nav{
+	width: 100%;
+	height: 15vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav .logo{
+	width: 25%;
+	text-align: center;
+}
+
+nav .menu{
+	width: 25%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.logo h1:hover{
+	text-shadow: 2px 2px 1px red;
+}
+
+.menu a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+.menu a:hover{
+	text-shadow: 1px 1px 5px red;
+	text-decoration: underline;
+	color: hotpink;
+}
+body{
+	background: linear-gradient(to right,brown,yellow,orange);
+}
+
+.content{
+	width: 100vw;
+	height: 85vh;
+	display: flex;
+	flex-direction: column;
+	
+	align-items: center;
+}
+
+.info1{
+	margin: 30px 0;
+	width: 40vw;
+	height: 60vh;
+	background: whitesmoke;
+}
+
+.info10{
+	margin: 30px 0;
+	width: 40vw;
+	height: 80vh;
+	background: whitesmoke;
+}
+
+.para10::after{
+	content: "hello world hdhduc hh cidhihdc ihehd edhih xhbuyuxv uxwgygex ugwxexuie X UGXEUYx uhweuxi ihx ie ix 8uci ciuuic ieic icieic ficjieruci rijriuc uirci yircji ci c8ci jccirc iuciorej cij ci icjcuicjricu  criohrji hcgin xuhdhduc hh cidhihdc ihehd edhih xhbuyuxv uxwgygex ugwxexuie X UGXEUYx uhweuxi ihx ie ix 8uci ciuuic ieic icieic ficjieruci rijriuc uirci yircji ci c8ci jccirc iuciorej cij ci icjcuicjricu  criohrji hcgin x";
+}
+
+.button10{
+	content="Less info"
+}
+
+.info2{
+	margin: 30px 0;
+	width: 40vw;
+	height: 60vh;
+	background: whitesmoke;
+}
+
+.info3{
+	margin: 30px 0;
+	width: 40vw;
+	height: 60vh;
+	background: whitesmoke;
+}
+
+.info4{
+	margin: 30px 0;
+	width: 40vw;
+	height: 60vh;
+	background: whitesmoke;
+}
+
+.image img{
+	width: 40vw;
+	height: 30vh;
+}
+
+.about{
+	margin: 20px 20px;
+}
+
+.btn button{
+	margin: 10px 20px;
+	color: white;
+	background: grey;
+}
+.btn button:hover{
+	color: red;
+	background: brown;
+	font-weight: bolder;
+}
