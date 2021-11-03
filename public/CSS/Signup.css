@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* media query start */
+
+@media screen and (min-width: 900px){
+	nav{
+		width: 100vw;
+		height: 15vh;
+		background: linear-gradient(to right,red,pink,orange);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	nav .logo{
+		width: 25%;
+		text-align: center;
+	}
+
+	nav .menu{
+		width: 35%;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	ul li{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	nav{
+		width: 100vw;
+		height: 15vh;
+		background: linear-gradient(to right,red,pink,orange);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	nav .logo{
+		width: 25%;
+		text-align: center;
+	}
+
+	nav .menu{
+		width: 40%;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	ul li{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 650px){
+	nav{
+		width: 100%;
+		height: 20vh;
+		background: linear-gradient(to right,red,pink,orange);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}	
+
+	nav .logo{
+		width: 25%;
+		text-align: center;
+	}
+
+	nav .menu{
+		width: 70%;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	ul li{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	nav{
+		width: 100%;
+		height: 15vh;
+		background: linear-gradient(to right,red,pink,orange);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}	
+	ul li{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-top: 10px;
+	}
+}
+
+/* media query end */
+
+
+/*     Navbar         */
+
+
+
+.logo h1:hover{
+	text-shadow: 2px 2px 1px red;
+}
+.menu a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+.menu a:hover{
+	text-shadow: 1px 1px 5px red;
+	text-decoration: underline;
+	color: hotpink;
+}
+
+
+
+/*         Content      */
+.info{
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url("../image/Travel.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.sub{
+	display: flex;
+	justify-content: center;
+}
+
+li input{
+	border: none;
+	background: none;
+	outline: none;
+	border-bottom: 1px solid ;
+	
+}
+li label{
+	color: navajowhite;
+}
+
+.sub input{
+	width: 50%;
+	height: 5vh;
+	border-radius: 10px;
+	background-color: goldenrod;
+	cursor: pointer;
+}
